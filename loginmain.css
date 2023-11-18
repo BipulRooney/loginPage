@@ -1,0 +1,180 @@
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    background-color: #f0fff0;
+    box-shadow: 10px 10px 5px #bfbdbc;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+
+.left {
+    background-image: url("abstract.jpg");
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: Gilgan;
+    font-size: 35px;
+    position: absolute;
+    top: 170px;
+    left: 75px;
+    animation-name: welcomeAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes welcomeAnimation {
+    from {
+        left: -350px;
+    }
+
+    to {
+        left: 75px;
+    }
+}
+
+h2 {
+    color: burlywood;
+    font-family: Quahon;
+    font-size: 15px;
+    position: absolute;
+    top: 230px;
+    left: 9px;
+}
+
+.SigninButton {
+    background-color: #f0fff0;
+    border: none;
+    color: black;
+    padding: 10px 18px;
+    text-align: center;
+    font-family: Gilgan;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    position: absolute;
+    border-style: solid;
+    top: 290px;
+    left: 140px;
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.SigninButton:hover {
+    opacity: 0.6
+}
+
+.right {}
+
+h3 {
+    position: absolute;
+    left: 520px;
+    top: 80px;
+    font-size: 20px;
+    font-family: Gilgan;
+}
+
+h4 {
+    position: absolute;
+    left: 490px;
+    top: 160px;
+    font-size: 13px;
+    font-family: gilgan;
+}
+
+.SignupButton {
+    background-color: #f0fff0;
+    border: none;
+    color: black;
+    padding: 10px 18px;
+    text-align: center;
+    font-family: Gilgan;
+    display: inline-block;
+    font-size: 16px;
+    border-style: solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 360px;
+    left: 550px;
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.SignupButton:hover {
+    opacity: 0.6
+}
+
+.name {
+    position: absolute;
+    left: 510px;
+    top: 220px;
+    background-color: #f0fff0;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+
+.email {
+    position: absolute;
+    left: 510px;
+    top: 260px;
+    background-color: #f0fff0;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+
+.password {
+    position: absolute;
+    left: 510px;
+    top: 300px;
+    background-color: #f0fff0;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+
+.socialmedia {
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    left: 495px;
+    top: 122px;
+    background-color: #f0fff0;
+}
+
+.facebook {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 23px;
+    top: 6px;
+}
+
+.twitter {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 90px;
+    top: 11px;
+}
+
+.github {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    left: 140px;
+    top: 4px;
+}
